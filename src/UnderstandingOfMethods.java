@@ -1,3 +1,4 @@
+import tools.Calculator;
 public class UnderstandingOfMethods {
     // instance variables each account as its own values
     private String accountHolder;
@@ -40,6 +41,12 @@ public class UnderstandingOfMethods {
     public static void main(String[] args) {
         UnderstandingOfMethods account1 = new UnderstandingOfMethods("Ramki", 5000);
         UnderstandingOfMethods account2 = new UnderstandingOfMethods("Santosh", 10000);
+        Operations ope1 = new Operations();
+        // Created object from another class
+        ope1.loginAuthentication("Ram","123");
+        // Created object from other package
+        Calculator calc1 = new Calculator();
+        calc1.display();
 
         account1.deposit(1500);
         account2.withdraw(1500);
