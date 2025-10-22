@@ -45,6 +45,7 @@ public class StaticAndNonStatic {
         */
         // I'm creating object now
         StaticAndNonStatic obj1 = new StaticAndNonStatic(21, "Ramki");
+        StaticAndNonStatic obj2 = new StaticAndNonStatic(26, "Ram");
         // you can in the console, 0 null from non-static block why because before executes constructor
         //jvm checks any non static blocks are there.
         obj1.display();
