@@ -24,6 +24,17 @@ public class Strings {
         System.out.println(res);
     }
 
+    public static void countVowels(String str){
+        char[] strArr = str.toLowerCase().toCharArray();
+        int count = 0;
+        for(char chr : strArr){
+            if("aeiou".indexOf(chr) != -1){
+                count +=1;
+            }
+        }
+        System.out.println("Count Of Vowels In The String : " + count);
+    }
+
     public void reverseString(String name){
         String revStr = "";
         for (int j = name.length() - 1; j >= 0; j--){
@@ -62,5 +73,6 @@ public class Strings {
         obj1.reverseString("Apple");
         System.out.println(obj1.checkAnagrams("listen", "silent"));
         System.out.println(obj1.checkAnagrams("Apple", "Index"));
+        countVowels("developer");
     }
 }
