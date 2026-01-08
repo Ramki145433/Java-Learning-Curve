@@ -1,3 +1,5 @@
+package BasicJava;
+
 import java.util.Arrays;
 public class ArraysInJava {
     public static void main(String[] args) {
@@ -10,7 +12,7 @@ public class ArraysInJava {
         System.out.println(Arrays.toString(numbers));
         //Accessing Elements
         System.out.println("Second Element " + arr[1]);
-        //length is property not a method(.length() is for Strings)
+        //length is property not a method(.length() is for BasicJava.Strings)
         System.out.println("Last Element " + arr[arr.length - 1]);
 
         // Types of Arrays

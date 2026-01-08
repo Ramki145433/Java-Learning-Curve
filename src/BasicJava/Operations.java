@@ -1,3 +1,5 @@
+package BasicJava;
+
 public class Operations {
     /*
         They are basically of 7 types:

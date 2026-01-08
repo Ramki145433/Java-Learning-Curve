@@ -1,3 +1,5 @@
+package BasicJava;
+
 public class ConstructorPractice {
     private int a;
     public ConstructorPractice(){

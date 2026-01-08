@@ -1,6 +1,8 @@
+package BasicJava;
+
 public class Basics {
     public static void main(String[] args) {
-        //Basics of java from GFG
+        //BasicJava.Basics of java from GFG
         //Data types
         /*
         In Java, data types specify the type of values a variable can hold. They define the size, range and nature of data stored in memory. Java has two main categories of data types:

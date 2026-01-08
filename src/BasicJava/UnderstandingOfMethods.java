@@ -1,3 +1,5 @@
+package BasicJava;
+
 import tools.Calculator;
 public class UnderstandingOfMethods {
     // instance variables each account as its own values

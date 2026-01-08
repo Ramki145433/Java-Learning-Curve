@@ -3,6 +3,15 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class ArrayListNotes {
+    /*
+        | Feature           | `Arrays.asList()` | `new ArrayList<>(Arrays.asList(...))` |
+        | ----------------- | ----------------- | ------------------------------------- |
+        | Backed by array   | ✅ Yes             | ❌ No                                  |
+        | Size fixed        | ✅ Yes             | ❌ No                                  |
+        | Allows add/remove | ❌ No              | ✅ Yes                                 |
+        | Allows set()      | ✅ Yes             | ✅ Yes                                 |
+        | Fully dynamic     | ❌ No              | ✅ Yes                                 |
+    */
     public static void returnSecondMax(ArrayList<Integer> arr){
         int firstHighest = Integer.MIN_VALUE;
         int secondHighest = Integer.MIN_VALUE;

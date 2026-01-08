@@ -1,3 +1,5 @@
+package BasicJava;
+
 public class StaticAndNonStatic {
     /*
         | Feature    | Static (class-level)   | Non-static (instance-level)  |
@@ -12,7 +14,7 @@ public class StaticAndNonStatic {
         1.Static blocks (only once, at class load time).
         2.Instance blocks (every time an object is created).
         3.Constructor (every time an object is created, after instance block).
-        4.Methods (when explicitly called).
+        4.BasicJava.Methods (when explicitly called).
     */
 
     static String schoolName = "Ravindra Bharathi";
@@ -45,8 +47,8 @@ public class StaticAndNonStatic {
         */
         // I'm creating object now
         StaticAndNonStatic obj1 = new StaticAndNonStatic(21, "Ramki");
-        StaticAndNonStatic obj2 = new StaticAndNonStatic(26, "Ram");
-        // you can in the console, 0 null from non-static block why because before executes constructor
+//        StaticAndNonStatic obj2 = new StaticAndNonStatic(26, "Ram");
+        // you can see in the console, 0 null from non-static block why because before executes constructor
         //jvm checks any non static blocks are there.
         obj1.display();
     }

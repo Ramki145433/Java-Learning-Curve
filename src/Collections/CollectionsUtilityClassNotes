@@ -1,0 +1,42 @@
+Perfect 👍 Here’s a **complete table** of the most commonly used and important methods from the `Collections` class in Java — these are utility methods that work on lists, sets, and other collections.
+
+---
+
+### 🧩 **Java Collections Utility BasicJava.Methods**
+
+| **Method**                                                                    | **Description**                                                        | **Example**                                   |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------- |
+| `Collections.max(Collection c)`                                               | Returns the maximum element (based on natural ordering or comparator). | `Collections.max(list)`                       |
+| `Collections.min(Collection c)`                                               | Returns the minimum element.                                           | `Collections.min(list)`                       |
+| `Collections.sort(List<T> list)`                                              | Sorts the list in ascending order.                                     | `Collections.sort(list)`                      |
+| `Collections.sort(List<T> list, Comparator<? super T> c)`                     | Sorts the list using a custom comparator.                              | `Collections.sort(list, comp)`                |
+| `Collections.reverse(List<?> list)`                                           | Reverses the order of elements in the list.                            | `Collections.reverse(list)`                   |
+| `Collections.shuffle(List<?> list)`                                           | Randomly shuffles elements in the list.                                | `Collections.shuffle(list)`                   |
+| `Collections.swap(List<?> list, int i, int j)`                                | Swaps elements at the given positions.                                 | `Collections.swap(list, 0, 1)`                |
+| `Collections.fill(List<? super T> list, T obj)`                               | Replaces all elements with the specified object.                       | `Collections.fill(list, 0)`                   |
+| `Collections.copy(List<? super T> dest, List<? extends T> src)`               | Copies all elements from src to dest.                                  | `Collections.copy(dest, src)`                 |
+| `Collections.frequency(Collection<?> c, Object o)`                            | Returns number of occurrences of an element.                           | `Collections.frequency(list, 10)`             |
+| `Collections.disjoint(Collection<?> c1, Collection<?> c2)`                    | Returns `true` if two collections have no elements in common.          | `Collections.disjoint(list1, list2)`          |
+| `Collections.replaceAll(List<T> list, T oldVal, T newVal)`                    | Replaces all occurrences of oldVal with newVal.                        | `Collections.replaceAll(list, 5, 10)`         |
+| `Collections.binarySearch(List<? extends Comparable<? super T>> list, T key)` | Searches for key using binary search (list must be sorted).            | `Collections.binarySearch(list, 20)`          |
+| `Collections.unmodifiableList(List<? extends T> list)`                        | Returns an unmodifiable view of the list.                              | `Collections.unmodifiableList(list)`          |
+| `Collections.unmodifiableSet(Set<? extends T> s)`                             | Returns an unmodifiable view of the set.                               | `Collections.unmodifiableSet(set)`            |
+| `Collections.unmodifiableMap(Map<? extends K, ? extends V> m)`                | Returns an unmodifiable view of the map.                               | `Collections.unmodifiableMap(map)`            |
+| `Collections.singleton(T o)`                                                  | Returns an immutable set with a single element.                        | `Collections.singleton("A")`                  |
+| `Collections.singletonList(T o)`                                              | Returns an immutable list with one element.                            | `Collections.singletonList(100)`              |
+| `Collections.singletonMap(K key, V value)`                                    | Returns an immutable map with one key-value pair.                      | `Collections.singletonMap(1, "A")`            |
+| `Collections.emptyList()`                                                     | Returns an immutable empty list.                                       | `Collections.emptyList()`                     |
+| `Collections.emptySet()`                                                      | Returns an immutable empty set.                                        | `Collections.emptySet()`                      |
+| `Collections.emptyMap()`                                                      | Returns an immutable empty map.                                        | `Collections.emptyMap()`                      |
+| `Collections.nCopies(int n, T o)`                                             | Returns an immutable list with `n` copies of the object.               | `Collections.nCopies(3, "Hi")`                |
+| `Collections.enumeration(Collection<T> c)`                                    | Returns an enumeration over the collection.                            | `Collections.enumeration(list)`               |
+| `Collections.list(Enumeration<T> e)`                                          | Converts enumeration to list.                                          | `Collections.list(enum)`                      |
+| `Collections.synchronizedList(List<T> list)`                                  | Returns a synchronized (thread-safe) list.                             | `Collections.synchronizedList(list)`          |
+| `Collections.synchronizedSet(Set<T> s)`                                       | Returns a synchronized set.                                            | `Collections.synchronizedSet(set)`            |
+| `Collections.synchronizedMap(Map<K,V> m)`                                     | Returns a synchronized map.                                            | `Collections.synchronizedMap(map)`            |
+| `Collections.rotate(List<?> list, int distance)`                              | Rotates elements by the given distance.                                | `Collections.rotate(list, 2)`                 |
+| `Collections.checkedList(List<T> list, Class<T> type)`                        | Ensures only elements of the specified type can be added.              | `Collections.checkedList(list, String.class)` |
+
+---
+
+Would you like me to give a **categorized version** next (like sorting, searching, synchronization, immutability, etc.) — that’s easier to memorize and revise quickly for interviews?

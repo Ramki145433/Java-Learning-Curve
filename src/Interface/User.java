@@ -16,5 +16,6 @@ public class User {
         obj1.paste();
         obj1.copy();
         obj1.security();
+        Laptop.audio();
     }
 }

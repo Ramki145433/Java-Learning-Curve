@@ -1,10 +1,12 @@
+package BasicJava;
+
 public class Variables {
     /*
-        Variables are containers to store data in memory. Each variable has a name, type and value. It is the basic unit of storage in a program. Java has 4 types of variables.
-        Local Variables: Declared inside a method, constructor, or block. Accessible only within that block.
-        Instance Variables: Declared inside a class but outside any method. Each object of the class has its own copy.
-        Static Variables: Declared with the static keyword inside a class. Shared by all objects of the class.
-        Final Variables: Declared with final keyword. Value cannot be changed once assigned
+        BasicJava.Variables are containers to store data in memory. Each variable has a name, type and value. It is the basic unit of storage in a program. Java has 4 types of variables.
+        Local BasicJava.Variables: Declared inside a method, constructor, or block. Accessible only within that block.
+        Instance BasicJava.Variables: Declared inside a class but outside any method. Each object of the class has its own copy.
+        Static BasicJava.Variables: Declared with the static keyword inside a class. Shared by all objects of the class.
+        Final BasicJava.Variables: Declared with final keyword. Value cannot be changed once assigned
 
         | Feature           | Instance Variable                      | Static Variable                   |
         | ----------------- | -------------------------------------- | --------------------------------- |
@@ -45,7 +47,7 @@ public class Variables {
     }
 
     public static void main(String[] args) {
-        // Creating Object from Variables class
+        // Creating Object from BasicJava.Variables class
         Variables obj1 = new Variables(21, "Rama");
         Variables obj2 = new Variables(23, "Manasa");
         obj1.display();
