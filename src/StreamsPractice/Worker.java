@@ -36,7 +36,13 @@ public class Worker {
     }
 
     @Override
-    public String toString(){
-        return id + " - " + name + " - " + salary;
+    public String toString() {
+        return "Worker{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                ", age=" + age +
+                ", department='" + department + '\'' +
+                '}';
     }
 }
